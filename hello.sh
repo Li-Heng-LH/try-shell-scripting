@@ -30,3 +30,23 @@ echo $c
 echo ${#c} # length of string
 
 echo
+
+# user input
+# echo "Please enter name:"
+# read name
+
+# echo "Please enter password:"
+# read -s password
+
+# read -p "What is your favourite animal? " animal
+
+# echo name: $name, pass: $password, animal: $animal 
+# echo 
+
+# ensure user response
+read -p "Choose a word: " word
+while [[ -z "$word" ]]; do
+	read -p "Please type a word: " word
+done
+echo word: $word
+
