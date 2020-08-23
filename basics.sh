@@ -20,5 +20,3 @@ array+=("mango") #append to last element
 echo ${array[0]} #get the first element 
 echo ${array[@]} #get whole array
 echo ${array[@]: -1} #get the last element 
-
-
