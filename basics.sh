@@ -12,3 +12,13 @@ time=$(date +"%H:%M:%S")
 # \t\t because there are 2 %s
 printf -v d "CUrrent user:\t%s\nDate:\t\t%s @ %s\n" $USER $today $time
 echo "$d"
+
+
+# Array
+array=("apple" "banana" "cherry")
+array+=("mango") #append to last element
+echo ${array[0]} #get the first element 
+echo ${array[@]} #get whole array
+echo ${array[@]: -1} #get the last element 
+
+
