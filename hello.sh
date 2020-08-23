@@ -3,7 +3,7 @@ echo
 
 # echo and variales
 greeting="hello" #Cannot have spaces around =
-echo '$greeting, world (planet)!'
+echo '$greeting, world (planet)!' #nothing inside of the single quote gets interpreted, print as it is.
 echo "$greeting, world (planet)!"
 echo
 
