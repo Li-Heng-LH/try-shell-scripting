@@ -17,7 +17,14 @@
 * Redirection is (mostly) for files (you redirect streams to/from files).
 * Piping is for processes: you pipe (redirect) streams from one process to another.
 
-&nbsp;
+&nbsp;  
+
+##### Some notes
+* There is no difference between $* and $@, but "$@" and "$*" have.
+* "$@" treats each quoted arguments as separate arguments but 
+"$*" considers the entire set of positional parameters as a single string.
+
+&nbsp;  
 
 &nbsp;
 ----
