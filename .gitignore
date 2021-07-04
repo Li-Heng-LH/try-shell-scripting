@@ -18,3 +18,5 @@ Desktop.ini
 # Others
 ######################
 *.class
+
+text-processing/result.txt
